@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100&display=swap");
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  background-color: #191922;
+}
+
+/* Header */
+.header {
+  margin: auto;
+  max-width: 800px;
+}
+
+.header hr {
+  max-width: 650px;
+  margin: auto;
+}
+
+/* photo */
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 128px;
+  height: auto;
+  margin-top: 2em;
+  position: relative;
+  border: 5px solid white;
+}
+
+/* Name */
+.name h1,
+p {
+  color: white;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.name h1 {
+  margin: .5em 0 0 0;
+}
+
+#p1-h {
+  margin: .3em 0 0em 0;
+}
+
+#p2-h {
+  margin: .1em 0 1em 0;
+}
+
+#p2-h a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Sosmed */
+.sosmed {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sosmed a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  margin: .3em .2em .3em 0;
+  transition: all .3s ease-in-out;
+}
+
+.sosmed a:hover {
+  transform: scale(1.05);
+}
+
+#hr2 {
+  max-width: 450px;
+  margin: auto;
+}
+
+/* LinkTree */
+.linktree {
+  text-align: center;
+  justify-content: center;
+}
+
+.linktree a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 1em 15em;
+  border-radius: 50px;
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  display: block;
+  max-width: 15em;
+  margin: 1em auto;
+}
+ 
+.bnksa a {
+  transition: all .3s ease-in-out;
+  box-shadow: 5px 10px 20px ;
+}
+
+.bnksa a:hover {
+  background-color: aqua;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 660px) {
+  .name p {
+    font-size: auto;
+  }
+
+  /* Sosmed */
+  .sosmed a {
+    font-size: 40px;
+  }
+
+  #hr1 {
+    width: auto;
+  }
+
+  #hr2 {
+    width: 300px;
+  }
+
+  /* LinkTree */
+  .linktree a {
+    padding: 1em 2.6em;
+  }
+}
