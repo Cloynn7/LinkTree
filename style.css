@@ -35,7 +35,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .photo img {
-  border-radius: 50%;
+  border-radius: 15%;
   width: 128px;
   height: auto;
   margin-top: 2em;
